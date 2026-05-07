@@ -6,7 +6,7 @@ import { api } from '../api.js';
 import { showToast } from '../components/modal.js';
 
 const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
-const GROQ_MODEL = 'llama3-8b-8192';
+const GROQ_MODEL = 'llama-3.3-70b-versatile';
 const GROQ_KEY   = import.meta.env.VITE_GROQ_KEY || '';
 
 let messages = [];   // full conversation history sent to Groq
